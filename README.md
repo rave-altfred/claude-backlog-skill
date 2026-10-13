@@ -20,7 +20,7 @@ Asking a model to "move B-042 to Done" usually means it re-types the whole line,
 - keeps the **Now** section in step (start adds a pointer, done and drop remove it),
 - refuses to guess: an ambiguous ID, text, or section name stops with a list of matches.
 
-Claude only decides *what* to do; the script does the editing. That is also why the skill can run on Haiku (`model: haiku` in `SKILL.md`), so it is fast and cheap.
+Claude only decides *what* to do; the script does the editing. The skill runs on your session's model, so judgement calls such as the `next` suggestion get the same model as the rest of your work. To make it faster and cheaper, add `model: haiku` to the frontmatter of `SKILL.md`.
 
 ## Install
 

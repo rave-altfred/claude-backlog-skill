@@ -2,7 +2,6 @@
 name: backlog
 description: Read and update the project's task backlog in docs/backlog.md — init, next, add, start, done, drop, move, split, show, status. Use when the user runs /backlog, asks what's next on the backlog, or asks to add, start, finish, split, or cut a backlog task.
 argument-hint: "[init [prefix] | next | add <items> | start <id> | done <id> [note] | drop <id> <why> | move <id> <section> | split <id> <parts> | show <id|text> | status]"
-model: haiku
 ---
 
 # /backlog
